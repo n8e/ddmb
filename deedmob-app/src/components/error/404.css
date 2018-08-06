@@ -1,0 +1,18 @@
+.not-found {
+  background-color: #262931;
+  padding-bottom: 50vh;
+  padding-top: 37vh;
+  text-align: center;
+}
+
+.not-found-title {
+  color: #3D4550;
+  font-size: 4rem;
+  margin-bottom: 25px;
+}
+
+.not-found-text {
+  color: #A0A3A9;
+  font-size: 1.5rem;
+  margin: 25px;
+}

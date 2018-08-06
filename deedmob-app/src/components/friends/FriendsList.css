@@ -1,0 +1,65 @@
+.friend-card {
+  background-color: #EDEDED;
+  color: #000;
+  display: block;
+  font: 15px arial, sans-serif;
+  height: 25px;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  text-align: left;
+  width: 99%;
+}
+
+.friend-name {
+  display: inline-block;
+}
+
+.friend-handle {
+  color: #A6B1B4;
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+.no-friends-card {
+  background-color: #F3D1D5;
+  color: #9C5259;
+  display: block;
+  font: 15px arial, sans-serif;
+  height: 25px;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  text-align: left;
+  width: 99%;
+}
+
+.no-friends-title {
+  display: inline-block;
+}
+
+.no-friends-message {
+  color: #B08F9C;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.friends-container {
+  margin: 0 auto;
+  width: 40vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .friend-card {
+    font: 12px arial, sans-serif;
+    width: 97%;
+  }
+
+  .no-friends-card {
+    font: 12px arial, sans-serif;
+    width: 97%;
+  }
+
+  .friends-container {
+    width: 70vw;
+  }
+}
