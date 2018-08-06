@@ -1,0 +1,18 @@
+{
+  "name": "deedmob-api",
+  "version": "1.0.0",
+  "description": "serving friends to deedmob front end challenge code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
